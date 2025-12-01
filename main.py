@@ -35,6 +35,9 @@ def main():
         for u in updatable:
             u.update(dt)
 
+        for d in drawable:
+            d.draw(screen)
+
         pygame.display.flip()
 
 
